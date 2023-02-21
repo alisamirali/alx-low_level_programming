@@ -1,11 +1,9 @@
 #include "main.h"
-
 /**
-* times_table - prints the 9 times table
+*times_table - prints the 9 times table
 *
-* Return: returns nothing
+*Return: returns nothing
 */
-
 void times_table(void)
 {
 int digit, mult, result;
@@ -28,5 +26,4 @@ _putchar((result % 10) + '0');
 _putchar('\n');
 }
 }
-
 
